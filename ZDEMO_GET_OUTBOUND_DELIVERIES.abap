@@ -170,7 +170,7 @@ END-OF-SELECTION.
     lo_alv->get_columns( )->get_column( 'ITEMNO' )->set_medium_text( 'EWM Item No' ).
     lo_alv->get_columns( )->get_column( 'PARTYNO' )->set_medium_text( 'Ship From' ).
     lo_alv->get_columns( )->get_column( 'PRODUCT_TEXT' )->set_medium_text( 'Product Description' ).
-    lo_alv->get_columns( )->get_column( 'GMSTATUS' )->set_medium_text( 'Goods Mvt Status' ).
+    lo_alv->get_columns( )->get_column( 'GMSTATUS' )->set_medium_text( 'PGI Status' ).
     lo_alv->get_columns( )->get_column( 'PICKSTATUS' )->set_medium_text( 'Pick Status' ).
     lo_alv->get_columns( )->get_column( 'PACKSTATUS' )->set_medium_text( 'Pack Status' ).
     lo_alv->display( ).
